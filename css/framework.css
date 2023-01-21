@@ -1,0 +1,182 @@
+:root{
+    --blue-color:#0075ff;
+    --blue-alt-color:#0d69d5 ;
+    --orange-color:#f59e0b;
+    --green-color:#22c55e;
+    --red-color:#f44336;
+    --gray-color:#888;
+}
+
+
+/* Start Box */
+.d-flex{
+    display: flex;
+    
+}
+.align-center{
+    align-items: center;
+}
+@media(max-width: 767px){
+    .block-mobile{
+        display: block;
+    }
+}
+.d-grid{
+    display: grid;
+
+}
+.gap-20{
+    gap: 20px;
+}
+.space-between{
+    justify-content: space-between;
+}
+/* End Box */
+
+/* Start Padding + Margin */
+.p-10{
+    padding: 10px;
+}
+.p-15{
+    padding: 15px;
+}
+.p-20{
+    padding: 20px;
+    
+}
+.pr-20{
+    padding-right: 20px;
+    
+}
+.p-15{
+    padding: 15px;
+}
+.pl-10{
+    padding-left: 10px;
+}
+
+.m-20{
+    margin: 20px;
+}
+.t-0{
+    margin-top: 0;
+}
+.m-0{
+    margin: 0;
+}
+.mt-0{
+    margin-top: 0;
+}
+.mb-20{
+    margin-bottom: 20px;
+}
+.mt-5{
+    margin-top: 5px;
+}
+.mt-20{
+    margin-top: 20px;
+}
+.mt-10{
+    margin-top: 20px;
+}
+.mb-10{
+    margin-bottom: 10px;
+}
+.mb-20{
+    margin-bottom: 20px;
+
+}
+.mb-30{
+    margin-bottom: 30px;
+}
+.gap-20{
+    gap: 20px;
+}
+.d-block{
+    display: block;
+}
+.w-fit{
+    width: fit-content;
+}
+/* End Padding + Margin */
+/* Start Color */
+.bg-white{
+    background-color: #ffff;
+
+}
+.bg-eee{
+    background-color: #eee;
+}
+.bg-blue{
+    background-color: var(--blue-color);
+}
+.c-black{
+    color: black;
+}
+.c-green{
+    color: var(--green-color);
+}
+.c-gray{
+    color: var(--gray-color);
+}
+.bg-blue{
+    background-color: var(--blue-color);
+}
+.c-white{
+    color: white;
+}
+/* End Color */
+/* Start Postion */
+.p-relative{
+    position: relative;
+}
+/* End Postion */
+/* Start Font */
+.txt-c{
+    text-align: center;
+}
+@media(max-width:767px){
+    .hide-mobile{
+        display: none;
+    }
+    .txt-c-mobile{
+        text-align: center;
+    }
+}
+.fs-14{
+    font-size: 14px;
+}
+.fs-13{
+    font-size: 13px;
+}
+/* End Font */
+
+/* Start Border */
+.rad-6{
+    border-radius: 6px;
+}
+.rad-10{
+    border-radius: 10px;
+}
+.rad-half{
+    border-radius: 50%;
+}
+/* End Border */
+/* Start Compponnet */
+.between-flex{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.btn-shape{
+    background-color: var(--blue-color);
+    color: white;
+    padding: 4px 10px;
+    border-radius: 6px;
+}
+/* End Compponnet */
+/* GEN */
+.btnn:hover{
+    cursor: pointer;
+}
+/* END GEN */
